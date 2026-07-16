@@ -1,0 +1,28 @@
+# ============================================================
+# OpenStudio-Agent 依赖
+# ============================================================
+
+# AI API SDKs (至少安装一个)
+anthropic>=0.40.0        # Claude API
+openai>=1.50.0           # OpenAI / DeepSeek API
+
+# 配置 & 环境
+python-dotenv>=1.0.0     # .env 文件加载
+pyyaml>=6.0              # YAML 配置文件解析
+
+# 可选：Notion 集成
+# 基础版本使用标准库 urllib，无需额外依赖
+# 如需更完整的 Notion API 支持，取消注释下一行：
+# notion-client>=2.2.0
+
+# 可选：Web 抓取（热点追踪）
+# requests>=2.32.0
+# beautifulsoup4>=4.12.0
+# feedparser>=6.0.0       # RSS 解析
+
+# 可选：定时任务
+# schedule>=1.2.0
+
+# 可选：数据可视化（数据回收 Agent）
+# matplotlib>=3.9.0
+# pandas>=2.2.0
